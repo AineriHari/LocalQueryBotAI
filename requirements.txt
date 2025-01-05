@@ -1,0 +1,10 @@
+python-dotenv
+ollama
+Werkzeug
+faiss-cpu
+sentence-transformers
+chardet
+python-docx
+termcolor
+PyPDF2
+gradio
