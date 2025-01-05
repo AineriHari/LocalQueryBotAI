@@ -18,11 +18,11 @@ class DocumentSearch:
 @dataclass
 class ChatBot:
     SYSTEM_PROMPT: str = (
-        r"You are an expert assistant capable of engaging in natural and informative conversations. Your task is to provide clear, accurate, and contextually relevant responses to user queries."
+        "You are an expert assistant capable of engaging in natural and informative conversations. Your task is to provide clear, accurate, and contextually relevant responses to user queries."
     )
     USER_PROMPT: str = (
-        r"Respond to the following user query in a concise and accurate manner:\n\n"
-        r"### User Query:\n{user_query}\n\n"
-        r"### Instructions:\n"
-        r"Answer the query clearly and effectively. If the query is open-ended, provide a thoughtful and well-structured answer while avoiding unnecessary elaboration."
+        "Respond to the following user query in a concise and accurate manner:\n\n"
+        "### User Query:\n{user_query}\n\n"
+        "### Instructions:\n"
+        "Answer the query clearly and effectively. If the query is open-ended, provide a thoughtful and well-structured answer while avoiding unnecessary elaboration."
     )
